@@ -1,1 +1,607 @@
-db.json file
+{
+  "customers": [
+    {
+      "id": "2",
+      "image": "/assets/deki.png",
+      "name": "Milo Jack",
+      "email": "jibumwakilembe@gmail.com",
+      "phone": "+255 675 342 345",
+      "address": "Tanzania, Dar es Salaam, Makumbusho"
+    },
+    {
+      "id": "4",
+      "image": "https://docs.material-tailwind.com/img/team-3.jpg",
+      "name": "Amir Kingstone",
+      "email": "answerjibu@gmail.com",
+      "phone": "+255 675 342 345",
+      "address": "Tanzania, Dar es Salaam, Makumbusho"
+    },
+    {
+      "id": "5",
+      "image": "/assets/mtu5.png",
+      "name": "Amir Kingstone",
+      "email": "amirKingstons@gmail.com",
+      "phone": "+255 675 342 345",
+      "address": "Tanzania, Dar es Salaam, Makumbusho"
+    },
+    {
+      "id": "6",
+      "image": "/assets/mtu6.png",
+      "name": "Jane Kitunge",
+      "email": "amir@gmail.com",
+      "phone": "+255 675 342 345",
+      "address": "Tanzania, Dar es Salaam, Makumbusho"
+    },
+    {
+      "id": "7",
+      "image": "/assets/mtu1.png",
+      "name": "Amir Kingstone",
+      "email": "amir@gmail.com",
+      "phone": "+255 675 342 345",
+      "address": "Tanzania, Dar es Salaam, Makumbusho"
+    },
+    {
+      "id": "8",
+      "image": "/assets/mtu2.png",
+      "name": "Milo Jack",
+      "email": "hj@gmail.com",
+      "phone": "+255 675 342 345",
+      "address": "Tanzania, Dar es Salaam, Makumbusho"
+    },
+    {
+      "id": "9",
+      "image": "/assets/mtu3.png",
+      "name": "Sam Patrick",
+      "email": "anna@gmail.com",
+      "phone": "+255 675 342 345",
+      "address": "Tanzania, Dar es Salaam, Makumbusho"
+    },
+    {
+      "id": "10",
+      "image": "/assets/mtu7.png",
+      "name": "Amir Kingstone",
+      "email": "tina@gmail.com",
+      "phone": "+255 675 342 345",
+      "address": "Tanzania, Dar es Salaam, Makumbusho"
+    },
+    {
+      "id": "11",
+      "image": "/assets/mtu5.png",
+      "name": "Amir Kingstone",
+      "email": "wewe@gmail.com",
+      "phone": "+255 675 342 345",
+      "address": "Tanzania, Dar es Salaam, Makumbusho"
+    },
+    {
+      "id": "12",
+      "image": "https://docs.material-tailwind.com/img/team-3.jpg",
+      "name": "Jane Kitunge",
+      "email": "amir@gmail.com",
+      "phone": "+255 675 342 345",
+      "address": "Tanzania, Dar es Salaam, Makumbusho"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "image": "/assets/deki.png",
+      "name": "PlayStation 5 Gaming Console",
+      "comment": "White, fairtrade certified, cotton",
+      "price": "TZS 2,220,000.12"
+    },
+    {
+      "id": "2",
+      "image": "/assets/radioplay.png",
+      "name": "Mp3 Music Player",
+      "comment": "White, fairtrade certified, cotton",
+      "price": "TZS 20,000.12"
+    },
+    {
+      "id": "3",
+      "image": "/assets/ammitter.png",
+      "name": "Mini Mp3 player",
+      "comment": "White, fairtrade certified, cotton",
+      "price": "TZS 15,000.12"
+    },
+    {
+      "id": "4",
+      "image": "/assets/radio.png",
+      "name": "PlayStation 5 Gaming Console",
+      "comment": "White, fairtrade certified, cotton",
+      "price": "TZS 2,220,000.12"
+    },
+    {
+      "id": "5",
+      "image": "/assets/radio.png",
+      "name": "PlayStation 5 Gaming Console",
+      "comment": "White, fairtrade certified, cotton",
+      "price": "TZS 2,220,000.12"
+    },
+    {
+      "id": "6",
+      "image": "/assets/radio.png",
+      "name": "PlayStation 5 Gaming Console",
+      "comment": "White, fairtrade certified, cotton",
+      "price": "TZS 2,220,000.12"
+    },
+    {
+      "id": "7",
+      "image": "/assets/radio.png",
+      "name": "PlayStation 5 Gaming Console",
+      "comment": "White, fairtrade certified, cotton",
+      "price": "TZS 2,220,000.12"
+    },
+    {
+      "id": "8",
+      "image": "/assets/radio.png",
+      "name": "PlayStation 5 Gaming Console",
+      "comment": "White, fairtrade certified, cotton",
+      "price": "TZS 2,220,000.12"
+    },
+    {
+      "id": "9",
+      "image": "/assets/radio.png",
+      "name": "PlayStation 5 Gaming Console",
+      "comment": "White, fairtrade certified, cotton",
+      "price": "TZS 2,220,000.12"
+    },
+    {
+      "id": "10",
+      "image": "/assets/ammitter.png",
+      "name": "Mini Mp3 player",
+      "comment": "White, fairtrade certified, cotton",
+      "price": "TZS 15,000.12"
+    },
+    {
+      "id": "11",
+      "image": "/assets/radio.png",
+      "name": "PlayStation 5 Gaming Console",
+      "comment": "White, fairtrade certified, cotton",
+      "price": "TZS 2,220,000.12"
+    },
+    {
+      "id": "12",
+      "image": "/assets/radio.png",
+      "name": "PlayStation 5 Gaming Console",
+      "comment": "White, fairtrade certified, cotton",
+      "price": "TZS 2,220,000.12"
+    }
+  ],
+  "sellers": [
+    {
+      "id": "1",
+      "image": "https://docs.material-tailwind.com/img/team-3.jpg",
+      "name": "Amir Kingstone",
+      "email": "amir@gmail.com",
+      "phone": "+255 675 342 345",
+      "address": "Tanzania, Dar es Salaam, Makumbusho"
+    },
+    {
+      "id": "4",
+      "image": "https://docs.material-tailwind.com/img/team-3.jpg",
+      "name": "Amir Kingstone",
+      "email": "answerjibu@gmail.com",
+      "phone": "+255 675 342 345",
+      "address": "Tanzania, Dar es Salaam, Makumbusho"
+    },
+    {
+      "id": "5",
+      "image": "/assets/mtu5.png",
+      "name": "Amir Kingstone",
+      "email": "amirKingstons@gmail.com",
+      "phone": "+255 675 342 345",
+      "address": "Tanzania, Dar es Salaam, Makumbusho"
+    },
+    {
+      "id": "6",
+      "image": "/assets/mtu6.png",
+      "name": "Jane Kitunge",
+      "email": "amir@gmail.com",
+      "phone": "+255 675 342 345",
+      "address": "Tanzania, Dar es Salaam, Makumbusho"
+    },
+    {
+      "id": "7",
+      "image": "/assets/mtu1.png",
+      "name": "Amir Kingstone",
+      "email": "amir@gmail.com",
+      "phone": "+255 675 342 345",
+      "address": "Tanzania, Dar es Salaam, Makumbusho"
+    },
+    {
+      "id": "8",
+      "image": "/assets/mtu2.png",
+      "name": "Milo Jack",
+      "email": "hj@gmail.com",
+      "phone": "+255 675 342 345",
+      "address": "Tanzania, Dar es Salaam, Makumbusho"
+    },
+    {
+      "id": "9",
+      "image": "/assets/mtu3.png",
+      "name": "Sam Patrick",
+      "email": "anna@gmail.com",
+      "phone": "+255 675 342 345",
+      "address": "Tanzania, Dar es Salaam, Makumbusho"
+    },
+    {
+      "id": "10",
+      "image": "/assets/mtu7.png",
+      "name": "Amir Kingstone",
+      "email": "tina@gmail.com",
+      "phone": "+255 675 342 345",
+      "address": "Tanzania, Dar es Salaam, Makumbusho"
+    },
+    {
+      "id": "11",
+      "image": "/assets/mtu5.png",
+      "name": "Amir Kingstone",
+      "email": "wewe@gmail.com",
+      "phone": "+255 675 342 345",
+      "address": "Tanzania, Dar es Salaam, Makumbusho"
+    },
+    {
+      "id": "12",
+      "image": "https://docs.material-tailwind.com/img/team-3.jpg",
+      "name": "Jane Kitunge",
+      "email": "amir@gmail.com",
+      "phone": "+255 675 342 345",
+      "address": "Tanzania, Dar es Salaam, Makumbusho"
+    }
+  ],
+  "seller-profit-data": [
+    {
+      "name": "Jan",
+      "profit": 2400
+    },
+    {
+      "name": "Feb",
+      "profit": 6398
+    },
+    {
+      "name": "Mar",
+      "profit": 4800
+    },
+    {
+      "name": "Apr",
+      "profit": 3908
+    },
+    {
+      "name": "May",
+      "profit": 4800
+    },
+    {
+      "name": "Jun",
+      "profit": 3800
+    },
+    {
+      "name": "Jul",
+      "profit": 4300
+    },
+    {
+      "name": "Aug",
+      "profit": 4300
+    },
+    {
+      "name": "Sept",
+      "profit": 4600
+    },
+    {
+      "name": "Oct",
+      "profit": 4700
+    },
+    {
+      "name": "Nov",
+      "profit": 4800
+    },
+    {
+      "name": "Dec",
+      "profit": 4900
+    }
+  ],
+  "customers-comment": [
+    {
+      "id": "4",
+      "image": "/assets/deki.png",
+      "name": "Milo Jack",
+      "email": "jibumwakilembe@gmail.com",
+      "phone": "+255 675 342 345",
+      "address": "Tanzania, Dar es Salaam, Makumbusho",
+      "comment": "fg In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a documentor a typeface"
+    },
+    {
+      "id": "4",
+      "image": "https://docs.material-tailwind.com/img/team-3.jpg",
+      "name": "Amir Kingstone",
+      "email": "answerjibu@gmail.com",
+      "phone": "+255 675 342 345",
+      "address": "Tanzania, Dar es Salaam, Makumbusho",
+      "comment": "second fg In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a documentor a typeface"
+    },
+    {
+      "id": "5",
+      "image": "/assets/mtu5.png",
+      "name": "Amir Kingstone",
+      "email": "amirKingstons@gmail.com",
+      "phone": "+255 675 342 345",
+      "address": "Tanzania, Dar es Salaam, Makumbusho",
+      "comment": "fg In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a documentor a typeface"
+    },
+    {
+      "id": "6",
+      "image": "/assets/mtu6.png",
+      "name": "Jane Kitunge",
+      "email": "amir@gmail.com",
+      "phone": "+255 675 342 345",
+      "address": "Tanzania, Dar es Salaam, Makumbusho",
+      "comment": "fg In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a documentor a typeface"
+    },
+    {
+      "id": "7",
+      "image": "/assets/mtu1.png",
+      "name": "Amir Kingstone",
+      "email": "amir@gmail.com",
+      "phone": "+255 675 342 345",
+      "address": "Tanzania, Dar es Salaam, Makumbusho",
+      "comment": "fg In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a documentor a typeface"
+    },
+    {
+      "id": "8",
+      "image": "/assets/mtu2.png",
+      "name": "Milo Jack",
+      "email": "hj@gmail.com",
+      "phone": "+255 675 342 345",
+      "address": "Tanzania, Dar es Salaam, Makumbusho",
+      "comment": "fg In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a documentor a typeface"
+    },
+    {
+      "id": "8",
+      "image": "/assets/mtu2.png",
+      "name": "Milo Jack",
+      "email": "hj@gmail.com",
+      "phone": "+255 675 342 345",
+      "address": "Tanzania, Dar es Salaam, Makumbusho",
+      "comment": "fg In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a documentor a typeface"
+    },
+    {
+      "id": "8",
+      "image": "/assets/mtu2.png",
+      "name": "Milo Jack",
+      "email": "hj@gmail.com",
+      "phone": "+255 675 342 345",
+      "address": "Tanzania, Dar es Salaam, Makumbusho",
+      "comment": "fg In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a documentor a typeface"
+    },
+    {
+      "id": "9",
+      "image": "/assets/mtu3.png",
+      "name": "Sam Patrick",
+      "email": "anna@gmail.com",
+      "phone": "+255 675 342 345",
+      "address": "Tanzania, Dar es Salaam, Makumbusho",
+      "comment": "fg In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a documentor a typeface"
+    },
+    {
+      "id": "10",
+      "image": "/assets/mtu7.png",
+      "name": "Amir Kingstone",
+      "email": "tina@gmail.com",
+      "phone": "+255 675 342 345",
+      "address": "Tanzania, Dar es Salaam, Makumbusho",
+      "comment": "fg In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a documentor a typeface"
+    },
+    {
+      "id": "11",
+      "image": "/assets/mtu5.png",
+      "name": "Amir Kingstone",
+      "email": "wewe@gmail.com",
+      "phone": "+255 675 342 345",
+      "address": "Tanzania, Dar es Salaam, Makumbusho",
+      "comment": "fg In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a documentor a typeface"
+    },
+    {
+      "id": "12",
+      "image": "https://docs.material-tailwind.com/img/team-3.jpg",
+      "name": "Jane Kitunge",
+      "email": "amir@gmail.com",
+      "phone": "+255 675 342 345",
+      "address": "Tanzania, Dar es Salaam, Makumbusho",
+      "comment": "fg In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a documentor a typeface"
+    }
+  ],
+  "products-purchased": [
+    {
+      "id": "1",
+      "image": "/assets/deki.png",
+      "name": "PlayStation 5 Gaming Console",
+      "comment": "White, fairtrade certified, cotton",
+      "price": "TZS 2,220,000.12"
+    },
+    {
+      "id": "2",
+      "image": "/assets/radioplay.png",
+      "name": "Mp3 Music Player",
+      "comment": "White, fairtrade certified, cotton",
+      "price": "TZS 20,000.12"
+    },
+    {
+      "id": "3",
+      "image": "/assets/ammitter.png",
+      "name": "Mini Mp3 player",
+      "comment": "White, fairtrade certified, cotton",
+      "price": "TZS 15,000.12"
+    },
+    {
+      "id": "4",
+      "image": "/assets/radio.png",
+      "name": "PlayStation 5 Gaming Console",
+      "comment": "White, fairtrade certified, cotton",
+      "price": "TZS 2,220,000.12"
+    },
+    {
+      "id": "5",
+      "image": "/assets/radio.png",
+      "name": "PlayStation 5 Gaming Console",
+      "comment": "White, fairtrade certified, cotton",
+      "price": "TZS 2,220,000.12"
+    },
+    {
+      "id": "6",
+      "image": "/assets/radio.png",
+      "name": "PlayStation 5 Gaming Console",
+      "comment": "White, fairtrade certified, cotton",
+      "price": "TZS 2,220,000.12"
+    },
+    {
+      "id": "7",
+      "image": "/assets/radio.png",
+      "name": "PlayStation 5 Gaming Console",
+      "comment": "White, fairtrade certified, cotton",
+      "price": "TZS 2,220,000.12"
+    },
+    {
+      "id": "8",
+      "image": "/assets/radio.png",
+      "name": "PlayStation 5 Gaming Console",
+      "comment": "White, fairtrade certified, cotton",
+      "price": "TZS 2,220,000.12"
+    },
+    {
+      "id": "9",
+      "image": "/assets/radio.png",
+      "name": "PlayStation 5 Gaming Console",
+      "comment": "White, fairtrade certified, cotton",
+      "price": "TZS 2,220,000.12"
+    },
+    {
+      "id": "10",
+      "image": "/assets/ammitter.png",
+      "name": "Mini Mp3 player",
+      "comment": "White, fairtrade certified, cotton",
+      "price": "TZS 15,000.12"
+    },
+    {
+      "id": "11",
+      "image": "/assets/radio.png",
+      "name": "PlayStation 5 Gaming Console",
+      "comment": "White, fairtrade certified, cotton",
+      "price": "TZS 2,220,000.12"
+    },
+    {
+      "id": "12",
+      "image": "/assets/radio.png",
+      "name": "PlayStation 5 Gaming Console",
+      "comment": "White, fairtrade certified, cotton",
+      "price": "TZS 2,220,000.12"
+    }
+  ],
+  "login": [
+    {
+      "email": "jibumwakilembe@gmail.com",
+      "password": "12345",
+      "token": "dummy-token-1",
+      "refreshToken": "dummy-refresh-1",
+      "authUserState": {
+        "name": "Jibu Mwakilembe",
+        "email": "jibumwakilembe@gmail.com"
+      }
+    },
+    {
+      "email": "mwakilembe@gmail.com",
+      "password": "12345",
+      "token": "dummy-token-2",
+      "refreshToken": "dummy-refresh-2",
+      "authUserState": {
+        "name": "Mwakilembe",
+        "email": "mwakilembe@gmail.com"
+      }
+    }
+  ],
+  "seller-products": [
+    {
+      "id": "1",
+      "image": "/assets/deki.png",
+      "name": "PlayStation 5 Gaming Console",
+      "comment": "White, fairtrade certified, cotton",
+      "price": "TZS 2,220,000.12"
+    },
+    {
+      "id": "2",
+      "image": "/assets/radioplay.png",
+      "name": "Mp3 Music Player",
+      "comment": "White, fairtrade certified, cotton",
+      "price": "TZS 20,000.12"
+    },
+    {
+      "id": "3",
+      "image": "/assets/ammitter.png",
+      "name": "Mini Mp3 player",
+      "comment": "White, fairtrade certified, cotton",
+      "price": "TZS 15,000.12"
+    },
+    {
+      "id": "4",
+      "image": "/assets/radio.png",
+      "name": "PlayStation 5 Gaming Console",
+      "comment": "White, fairtrade certified, cotton",
+      "price": "TZS 2,220,000.12"
+    },
+    {
+      "id": "5",
+      "image": "/assets/radio.png",
+      "name": "PlayStation 5 Gaming Console",
+      "comment": "White, fairtrade certified, cotton",
+      "price": "TZS 2,220,000.12"
+    },
+    {
+      "id": "6",
+      "image": "/assets/radio.png",
+      "name": "PlayStation 5 Gaming Console",
+      "comment": "White, fairtrade certified, cotton",
+      "price": "TZS 2,220,000.12"
+    },
+    {
+      "id": "7",
+      "image": "/assets/radio.png",
+      "name": "PlayStation 5 Gaming Console",
+      "comment": "White, fairtrade certified, cotton",
+      "price": "TZS 2,220,000.12"
+    },
+    {
+      "id": "8",
+      "image": "/assets/radio.png",
+      "name": "PlayStation 5 Gaming Console",
+      "comment": "White, fairtrade certified, cotton",
+      "price": "TZS 2,220,000.12"
+    },
+    {
+      "id": "9",
+      "image": "/assets/radio.png",
+      "name": "PlayStation 5 Gaming Console",
+      "comment": "White, fairtrade certified, cotton",
+      "price": "TZS 2,220,000.12"
+    },
+    {
+      "id": "10",
+      "image": "/assets/ammitter.png",
+      "name": "Mini Mp3 player",
+      "comment": "White, fairtrade certified, cotton",
+      "price": "TZS 15,000.12"
+    },
+    {
+      "id": "11",
+      "image": "/assets/radio.png",
+      "name": "PlayStation 5 Gaming Console",
+      "comment": "White, fairtrade certified, cotton",
+      "price": "TZS 2,220,000.12"
+    },
+    {
+      "id": "12",
+      "image": "/assets/radio.png",
+      "name": "PlayStation 5 Gaming Console",
+      "comment": "White, fairtrade certified, cotton",
+      "price": "TZS 2,220,000.12"
+    }
+  ]
+}
+
