@@ -252,51 +252,63 @@
   "seller-profit-data": [
     {
       "name": "Jan",
-      "profit": 2400
+      "profit": 2400,
+      "id": "8f24"
     },
     {
       "name": "Feb",
-      "profit": 6398
+      "profit": 6398,
+      "id": "01e2"
     },
     {
       "name": "Mar",
-      "profit": 4800
+      "profit": 4800,
+      "id": "7b66"
     },
     {
       "name": "Apr",
-      "profit": 3908
+      "profit": 3908,
+      "id": "702b"
     },
     {
       "name": "May",
-      "profit": 4800
+      "profit": 4800,
+      "id": "6d32"
     },
     {
       "name": "Jun",
-      "profit": 3800
+      "profit": 3800,
+      "id": "638b"
     },
     {
       "name": "Jul",
-      "profit": 4300
+      "profit": 4300,
+      "id": "2d7a"
     },
     {
       "name": "Aug",
-      "profit": 4300
+      "profit": 4300,
+      "id": "b16f"
     },
     {
       "name": "Sept",
-      "profit": 4600
+      "profit": 4600,
+      "id": "5b0e"
     },
     {
       "name": "Oct",
-      "profit": 4700
+      "profit": 4700,
+      "id": "0c14"
     },
     {
       "name": "Nov",
-      "profit": 4800
+      "profit": 4800,
+      "id": "bec7"
     },
     {
       "name": "Dec",
-      "profit": 4900
+      "profit": 4900,
+      "id": "b26d"
     }
   ],
   "customers-comment": [
@@ -500,20 +512,44 @@
       "email": "jibumwakilembe@gmail.com",
       "password": "12345",
       "token": "dummy-token-1",
-      "refreshToken": "dummy-refresh-1",
+      "refresh": "dummy-refresh-1",
       "authUserState": {
         "name": "Jibu Mwakilembe",
-        "email": "jibumwakilembe@gmail.com"
+        "email": "jibumwakilembe@gmail.com",
+        "role": "admin"
       }
     },
     {
       "email": "mwakilembe@gmail.com",
       "password": "12345",
       "token": "dummy-token-2",
-      "refreshToken": "dummy-refresh-2",
+      "refresh": "dummy-refresh-2",
       "authUserState": {
         "name": "Mwakilembe",
-        "email": "mwakilembe@gmail.com"
+        "email": "mwakilembe@gmail.com",
+        "role": "admin"
+      }
+    },
+    {
+      "email": "customer@gmail.com",
+      "password": "12345",
+      "token": "dummy-token-2",
+      "refresh": "dummy-refresh-2",
+      "authUserState": {
+        "name": "Mwakilembe",
+        "email": "mwakilembe@gmail.com",
+        "role": "customer"
+      }
+    },
+    {
+      "email": "seller@gmail.com",
+      "password": "12345",
+      "token": "dummy-token-2",
+      "refresh": "dummy-refresh-2",
+      "authUserState": {
+        "name": "Mwakilembe",
+        "email": "mwakilembe@gmail.com",
+        "role": "seller"
       }
     }
   ],
@@ -604,4 +640,3 @@
     }
   ]
 }
-
